@@ -8,3 +8,5 @@ class1.StudentList.Add(new Student("Sofie", 9, 4));
 class1.StudentList.Add(new Student("Lars", 5, 12));
 class1.StudentList.Add(new Student("Klaus", 11, 23));
 class1.StudentList.Add(new Student("Anna", 3, 15));
+
+class1.PrintStudentNames();

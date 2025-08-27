@@ -22,5 +22,13 @@ namespace ClassRoomNet60
             SemesterStart = semesterStart;
             StudentList = new List<Student>();
         }
+        public void PrintStudentNames()
+        {
+            Console.WriteLine($"Klasse {ClassName}:");
+            foreach (var student in StudentList)
+            {
+                Console.WriteLine($"Student name: {student.Name} Student birthday: {student.Birthday}/{student.BirthMonth}");
+            }
+        }
     }
 }
